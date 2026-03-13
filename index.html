@@ -1,53 +1,71 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <title>PERIKOTO</title>
-    <meta charset="utf-8">
-    <meta name="author" content="PERIKOTO">
-    <meta name="description" content="welcome">
-    <meta name="keywords" content="Video Game, Virtual Reality, VR, VR Game, Virtual Reality Game, SteamVR">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="GameIcon_black.png">
-    <style>
-        :root {
-            --text-light: #222;
-            --text-dark: #FFF;
-            --background-light: #FFF;
-        }
-        body {
-            font-family: 'Amatic SC', sans-serif;
-            font-weight: 700;
-            font-size: 1.4rem;
-            background-color: var(--background-light);
-            color: var(--text-light);
-        }
-        main {
-            margin-top: 5rem;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-        h2 {
-            text-align: center;
-        }
-        #logo {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
-        }
-        iframe {
-            display: block;
-            margin: 0 auto;
-        }
-    </style>
+	<title>PERIKOTO</title>
+	<meta charset="utf-8">
+	<meta name="author" content="PERIKOTO">
+	<meta name="description" content="welcome">
+	<meta name="keywords" content="Video Game, Virtual Reality, VR, VR Game, Virtual Reality Game, SteamVR">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#ffffff">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap" rel="stylesheet">
+	<style>
+      :root {
+          --text-light: #FFF;
+      }
+
+      body {
+					height: calc(100vh - 5rem);
+          font-family: "IM Fell DW Pica", serif;
+          font-weight: 700;
+          font-size: 1.4rem;
+          background-image: url("/yobox_2.png");
+          background-position: center;
+          color: var(--text-light);
+      }
+
+      main {
+					padding: 1rem;
+          position: relative;
+          top: 50%;
+          transform: translateY(-50%);
+          margin-left: auto; margin-right: auto;
+					max-width: 650px;
+					justify-content: center;
+      }
+
+      h2 {
+          text-align: center;
+      }
+
+      #logo {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 100%;
+      }
+
+      iframe {
+          display: block;
+          margin: 0 auto;
+      }
+			
+			p {
+					padding-bottom: 1rem;
+			}
+	</style>
 </head>
 <body>
-    <main>
-        <img id="logo" src="GameLogo_black.png" alt="PERIKOTO">
-        <iframe src="https://store.steampowered.com/widget/1570490/" frameborder="0" width="646" height="190"></iframe>
-    </main>
+<main>
+	<p>The horizon opens its jaws. Beyond, you see a pale white landscape, somehow familiar
+		in a way you can't quite put your finger on. You know you must get there.</p>
+	<p>You sit in your boat and start your long journey, rowing towards the horizon. The nameless sea rises up all around
+		you, and you know there is no way home. You pass beneath the edge of the firmament.
+	<p>Soon you will land on that icy beach.</p>
+	<img id="logo" src="perikoto-main-logo-dark.png" alt="PERIKOTO" style="margin-bottom: 5rem;">
+	<iframe src="https://store.steampowered.com/widget/1570490/" frameborder="0" width="646" height="190"></iframe>
+</main>
 </body>
 </html>
